@@ -1,0 +1,10 @@
+uuid: a2d66afa-9a0a-4a6d-a2c1-1932a6a1db0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - poll
+id: poll.token
+label: Token
+targetEntityType: poll
+cache: true

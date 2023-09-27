@@ -1,0 +1,22 @@
+uuid: 05271ed0-9f7d-4c58-9a2f-798a0ca2155d
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - coffee_zymphonies_theme
+_core:
+  default_config_hash: VsphW7uZQoEhTWQ4DL4Gg7PbpvqLNv29M-DVcDxxuAo
+id: coffee_zymphonies_theme_help
+theme: coffee_zymphonies_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: b8ffd61f-41cc-4ed6-b611-9d35be2e0637
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.programming-languages
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_programminglanguages
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:programming-languages'
+settings:
+  id: 'system_menu_block:programming-languages'
+  label: 'Programming languages'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 3
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

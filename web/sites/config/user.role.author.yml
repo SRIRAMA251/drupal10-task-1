@@ -1,0 +1,19 @@
+uuid: 4aae8995-23e0-4d92-8700-372252f05182
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - block
+    - comment
+    - node
+id: author
+label: Author
+weight: 4
+is_admin: null
+permissions:
+  - 'administer blocks'
+  - 'administer comment types'
+  - 'create article content'
+  - 'delete any article content'

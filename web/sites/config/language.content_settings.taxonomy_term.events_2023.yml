@@ -1,0 +1,11 @@
+uuid: 4e1d7449-a14d-40c5-b06f-3a506b1e8654
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.events_2023
+id: taxonomy_term.events_2023
+target_entity_type_id: taxonomy_term
+target_bundle: events_2023
+default_langcode: site_default
+language_alterable: false

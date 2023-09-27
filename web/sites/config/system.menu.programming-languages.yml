@@ -1,0 +1,8 @@
+uuid: eeb7a9ff-4e9f-411a-91ad-76cf6d3b8645
+langcode: en
+status: true
+dependencies: {  }
+id: programming-languages
+label: 'Programming languages'
+description: 'List of programming languages available '
+locked: false

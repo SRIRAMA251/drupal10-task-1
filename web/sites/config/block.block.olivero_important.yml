@@ -1,0 +1,25 @@
+uuid: eae1b014-6776-44b6-afbf-e9479a5c9c9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.home
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_important
+theme: olivero
+region: footer_top
+weight: -10
+provider: null
+plugin: 'system_menu_block:home'
+settings:
+  id: 'system_menu_block:home'
+  label: important
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

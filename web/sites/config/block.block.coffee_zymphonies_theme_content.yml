@@ -1,0 +1,22 @@
+uuid: 9992339d-3194-481d-bddc-0c7af0db33a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - coffee_zymphonies_theme
+_core:
+  default_config_hash: wSIwu4xS3IdP6gGSAAjB_eTevmKqmyVD9DWYgBzLPao
+id: coffee_zymphonies_theme_content
+theme: coffee_zymphonies_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

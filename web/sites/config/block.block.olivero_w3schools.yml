@@ -1,0 +1,30 @@
+uuid: 5447cdd4-e29b-4560-974c-83dd47121a44
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7821ea29-2983-4851-a7bd-b7e89b10a4ff'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_w3schools
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:7821ea29-2983-4851-a7bd-b7e89b10a4ff'
+settings:
+  id: 'block_content:7821ea29-2983-4851-a7bd-b7e89b10a4ff'
+  label: 'w3 schools'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

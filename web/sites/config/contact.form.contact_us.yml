@@ -1,0 +1,12 @@
+uuid: 8b7b5be0-ac2a-4aa9-8b59-28c3b3bc95f5
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact us'
+recipients:
+  - sriramanandan19@gmail.ocm
+reply: ''
+weight: 0
+message: 'Your message has been sent successfully'
+redirect: ''

@@ -1,0 +1,8 @@
+uuid: b32e8ac4-3e30-4b72-a04d-66fbfcaab060
+langcode: en
+status: true
+dependencies: {  }
+name: Events_2023
+vid: events_2023
+description: 'add the events performed in the college'
+weight: 0

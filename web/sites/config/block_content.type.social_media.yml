@@ -1,0 +1,8 @@
+uuid: 01d61387-4fd6-4bfc-929d-3f33dbd51b06
+langcode: en
+status: true
+dependencies: {  }
+id: social_media
+label: 'Social media'
+revision: 0
+description: 'Creating social media'

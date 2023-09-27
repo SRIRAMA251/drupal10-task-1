@@ -1,0 +1,8 @@
+uuid: b6f2c929-9a12-420a-9bfd-e14b0796cd8d
+langcode: en
+status: true
+dependencies: {  }
+name: 'More tags'
+vid: more_tags
+description: 'hear we can add more tags'
+weight: -9

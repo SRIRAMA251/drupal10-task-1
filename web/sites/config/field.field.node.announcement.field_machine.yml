@@ -1,0 +1,29 @@
+uuid: 0317b717-38ed-48e8-b3f0-66204be98036
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_machine
+    - node.type.announcement
+    - taxonomy.vocabulary.fruits
+id: node.announcement.field_machine
+field_name: field_machine
+entity_type: node
+bundle: announcement
+label: machine
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fruits: fruits
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

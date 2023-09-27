@@ -1,0 +1,29 @@
+uuid: cf14d2ad-c800-4c5a-8140-b7ed36024dbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fruits
+    - node.type.page
+    - taxonomy.vocabulary.fruits
+id: node.page.field_fruits
+field_name: field_fruits
+entity_type: node
+bundle: page
+label: Fruits
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fruits: fruits
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

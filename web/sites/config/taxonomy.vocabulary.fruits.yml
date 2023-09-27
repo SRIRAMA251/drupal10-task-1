@@ -1,0 +1,8 @@
+uuid: d9a6a904-81bc-4cff-b97b-f9d3c94296a9
+langcode: en
+status: true
+dependencies: {  }
+name: Fruits
+vid: fruits
+description: 'Enter the fruit name'
+weight: 0

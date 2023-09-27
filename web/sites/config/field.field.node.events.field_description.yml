@@ -1,0 +1,24 @@
+uuid: b7bd1b0b-1e77-468b-861f-e0ad088c0a07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - filter.format.basic_html
+    - node.type.events
+  module:
+    - text
+id: node.events.field_description
+field_name: field_description
+entity_type: node
+bundle: events
+label: description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text

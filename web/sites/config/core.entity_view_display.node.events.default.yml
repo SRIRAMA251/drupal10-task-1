@@ -1,0 +1,60 @@
+uuid: 731c62f0-0fd2-4b0f-bf6a-af0ec4c9cb65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.events.field_description
+    - field.field.node.events.field_enter_the_date
+    - field.field.node.events.field_events
+    - field.field.node.events.field_upload_images
+    - node.type.events
+  module:
+    - datetime
+    - text
+    - user
+id: node.events.default
+targetEntityType: node
+bundle: events
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_enter_the_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_events:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_upload_images:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

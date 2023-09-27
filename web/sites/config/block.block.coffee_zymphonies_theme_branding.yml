@@ -1,0 +1,25 @@
+uuid: 5b294d41-dd15-45ee-90ce-3f225501fc73
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - coffee_zymphonies_theme
+_core:
+  default_config_hash: DK_2yv5pjdXmtF1fegXPuJfM4dwvVM7HH1erjQwVZeA
+id: coffee_zymphonies_theme_branding
+theme: coffee_zymphonies_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

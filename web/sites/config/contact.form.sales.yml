@@ -1,0 +1,12 @@
+uuid: 4d356920-6bc9-48ce-8f75-59e176192cc9
+langcode: en
+status: true
+dependencies: {  }
+id: sales
+label: Sales
+recipients:
+  - sriramanandan19@gmail.com
+reply: "Thank you\r\n"
+weight: 0
+message: "Thank you for the sales enquiry\r\nwe will contact you shortly"
+redirect: /about
