@@ -874,3 +874,4 @@ $databases['default']['default'] = array (
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_v9y_iylqVMgoSN-7dAkeLxdw9qivpPvlXANPPYleBWRKrMmE0bHfhChbtwbSM6DvYpZnZ34ysQ/sync';
 $settings['config_sync_directory'] = 'sites/config';
+$config['system.logging']['error_level'] = 'verbose';
